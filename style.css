@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(23, 23, 39);
+}
+
+/* --------------------------------------banner style---------------------------------- */
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logoContainer {
+    color: rgb(85, 85, 85);
+}
+
+.navLinkContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.navLinkContainer li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navLinkContainer li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.account {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.account a {
+    text-decoration: none;
+}
